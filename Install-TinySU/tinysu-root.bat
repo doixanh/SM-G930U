@@ -29,7 +29,7 @@ adb shell chmod 0700 /system/etc/launch.tinysu.sh
 adb shell chcon u:object_r:su_exec:s0 /system/etc/launch.tinysu.sh
 adb push tinysu /system/bin/su
 adb shell chcon u:object_r:su_exec:s0 /system/bin/su
-adb install -r TinySU-v0.2.apk
+adb install -r TinySU-v0.3.apk
 
 echo Rebooting
 adb shell reboot
